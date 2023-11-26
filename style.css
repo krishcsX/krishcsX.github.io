@@ -90,7 +90,12 @@ body {
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
-
+.linkedin-link {
+    font-size: 50px; /* Adjust the text size as needed */
+}
+.linkedin-link i.fab.fa-linkedin {
+    font-size: 60px; /* Adjust the size as needed */
+}
 @media (hover: hover) {
     .link:hover {
         background-color: var(--accentColor);
