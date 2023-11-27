@@ -96,6 +96,18 @@ body {
 .linkedin-link i.fab.fa-linkedin {
     font-size: 60px; /* Adjust the size as needed */
 }
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;  
+}
+
+.video-container iframe {
+    width: 640px; /* Adjust the width as needed */
+    height: 360px; /* Adjust the height as needed */
+    margin: 0;
+}
 @media (hover: hover) {
     .link:hover {
         background-color: var(--accentColor);
